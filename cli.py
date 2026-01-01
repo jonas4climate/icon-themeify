@@ -59,13 +59,3 @@ def main():
     
 if __name__ == "__main__":
     main()
-
-
-# output_format = 'webp'
-
-# for theme in themes:
-#     base_path = Path('output') / theme.name
-#     base_path.mkdir(parents=True, exist_ok=True)
-#     for i, input_file in enumerate(Path('input').glob('*.webp')):
-#         output_file = base_path / f"{input_file.stem}.{output_format}"
-#         simplify_icon(input_file, output_file, theme.base_rgb, theme.edge_rgb, line_thickness=theme.line_thickness, min_elem_size=theme.min_elem_size, edge_free_pad=theme.edge_free_pad, show_process=True)
