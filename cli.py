@@ -12,6 +12,7 @@ def main():
     parser.add_argument("-f", "--format", dest="image_format", required=False, default="png", help="Output image format (default: png)")
     parser.add_argument("-i", "--input", dest="input_path", required=False, default="input", help="Input directory (default: input)")
     parser.add_argument("-o", "--output", dest="output_path", required=False, default="output", help="Output directory (default: output)")
+    parser.add_argument("--show-process", dest="show_process", action="store_true", help="Show processing steps")
     args = parser.parse_args()
 
     # Handle inputs
@@ -52,7 +53,7 @@ def main():
                 line_thickness=theme.line_thickness, 
                 min_elem_size=theme.min_elem_size, 
                 edge_free_pad=theme.edge_free_pad, 
-                show_process=True
+                show_process=args.show_process
             )
 
     
