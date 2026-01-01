@@ -1,0 +1,19 @@
+{
+  "themes": [
+    {
+      "name": "dark",
+      "base_rgb": [30, 30, 30],
+      "edge_rgb": [200, 200, 200]
+    },
+    {
+      "name": "light",
+      "base_rgb": [220, 220, 220],
+      "edge_rgb": [50, 50, 50]
+    },
+    {
+      "name": "blue",
+      "base_rgb": [80, 104, 183],
+      "edge_rgb": [241, 241, 241]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[project]
+name = "icon-themeify"
+version = "0.1.0"
+description = "Procedurally generate (bi)chromatic themed icons from original app icons"
+authors = [
+    {name = "Jonas Schäfer", email = "jo.schaefer@fz-juelich.de"},
+]
+dependencies = ["numpy>=2.4.0", "matplotlib>=3.10.8", "opencv-python>=4.11.0.86", "scikit-image>=0.26.0", "pydantic>=2.12.5"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
