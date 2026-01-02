@@ -4,23 +4,36 @@ This tool serves for procedurally generating themed icons from original app icon
 
 ## Showcase using `AllTrails`
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-  <!-- First image with its own title -->
-  <div style="text-align: center; width: 24%;">
-    <p><strong>Original Icon</strong></p>
-    <img src="example/alltrails.webp" alt="Original icon" style="width: 100%;" />
-  </div>
-
-  <!-- Shared title for the next three images -->
-  <div style="width: 72%;">
-    <p style="text-align: center;"><strong>Themed Icons</strong></p>
-    <div style="display: flex; justify-content: space-between;">
-      <img src="example/alltrails_light.png" alt="Light-themed icon" style="width: 32%;" />
-      <img src="example/alltrails_blue.png" alt="Blue-themed icon" style="width: 32%;" />
-      <img src="example/alltrails_dark.png" alt="Dark-themed icon" style="width: 32%;" />
-    </div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td width="20%" valign="top" align="center">
+      <p><strong>Original Icon</strong></p>
+      <table width="100%">
+        <tr>
+          <td width="100%" align="center">
+            <img src="example/alltrails.webp" alt="Original icon" width="100%" />
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="60%" valign="top">
+      <p align="center"><strong>Themed Icons</strong></p>
+      <table width="100%">
+        <tr>
+          <td width="33%" align="center">
+            <img src="example/alltrails_light.png" alt="Light-themed icon" width="90%" />
+          </td>
+          <td width="33%" align="center">
+            <img src="example/alltrails_blue.png" alt="Blue-themed icon" width="90%" />
+          </td>
+          <td width="33%" align="center">
+            <img src="example/alltrails_dark.png" alt="Dark-themed icon" width="90%" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 <br>
 <hr>
